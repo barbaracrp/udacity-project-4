@@ -1,6 +1,12 @@
+const assert = require('assert')
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
+const dotenv = require('dotenv');
+dotenv.config();
+
+//assert(process.env.API_ID, 'API_ID should be set')
+assert(process.env.API_KEY, 'API_KEY should be set')
 
 const app = express()
 
