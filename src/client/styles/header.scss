@@ -3,3 +3,12 @@ header {
     justify-content: space-between;
     padding: 10px 40px;
 }
+
+.page__header {
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    color: white;
+}
